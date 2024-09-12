@@ -1,0 +1,44 @@
+.conatiner{
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 20px;
+    align-items: end;
+}
+.top_button{
+    display: flex;
+    gap: 32px;
+}
+.conatct_form{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin: 10px 0;
+}
+.conatct_form form{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.form_controler{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+}
+
+.form_controler label{
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    background-color: white;
+    padding: 0 10px;
+    font-size: 14px;
+}
+.form_controler textarea{
+    padding: 8px;
+}
+.form_controler input{
+    height: 40px;
+    padding: 0 8px;
+}
